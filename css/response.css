@@ -1,0 +1,38 @@
+/* Using this file we will make responsive website. */
+
+@media only screen and (max-width:768px){
+    .sticky{
+        padding: 0% 5%;
+        top: 10px;
+    }
+}
+
+@media only screen and (max-width:425px){
+
+    .title-text{
+        margin-left: 6%;
+        width: 80%;
+    }
+    .content-1 .curcle{
+        margin-left: 35%;
+    }
+    .sticky{
+        padding: 2% 5%;
+        top: 20px;
+    }
+
+}
+
+@media only screen and (max-width:320px){
+    .site-title h2{
+        font-size: 1.9em;
+    }
+    .title-text{
+        margin-left: 2%;
+        width: 100%;
+    }
+
+    .btn-sub2{
+        display: none;
+    }
+}
