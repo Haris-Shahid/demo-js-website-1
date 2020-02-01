@@ -109,6 +109,10 @@ body{
 
 /* Content -2 */
 
+.content-2  .row{
+    margin: 0px;
+}
+
 .content-2 .row .col-1{
     background-image: url('Stock/Image_1.jpeg');
     background-size: cover;
@@ -135,12 +139,15 @@ body{
 /* Content -3 */
 
 .content-3{
-    width: 100vw;
+    width: 100%;
     background-color: #EFEFFF;
 }
-
+.content-3 .row.pt-4{
+    text-align: center;
+}
 .content-3 .row{
     padding-bottom: 4%;
+    margin: 0px;
 }
 .content-3 .col-md-12 p{
     font-size: 10px;
