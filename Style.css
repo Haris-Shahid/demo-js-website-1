@@ -32,6 +32,7 @@ body{
 
 .title-text{
     width: 50vw;
+    margin: 0px auto;
     height: 5vh;
     font-size: 0.8em;
     color: #F6F8FF;

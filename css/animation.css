@@ -57,7 +57,7 @@
     .content-3 .basic .basic-border:nth-child(1), .enterprise .basic-border:nth-child(1){
         top: 0%;left: 0%;
         width: 30px;
-        height: 0.8px;
+        height: 1px;
     }
 
     .content-3 .basic .basic-border:nth-child(2), .enterprise .basic-border:nth-child(2){
@@ -68,7 +68,7 @@
 
     .content-3 .basic .basic-border:nth-child(3), .enterprise .basic-border:nth-child(3){
         bottom: 0%; right: 0%;
-        width: 0.8px;
+        width: 1px;
         height: 30px;
     }
 
@@ -79,7 +79,7 @@
     }
 
     .enterprise .basic-border:nth-child(2){
-        width: 0.8px;
+        width: 1px;
     }
 
     .pro .pro-span{

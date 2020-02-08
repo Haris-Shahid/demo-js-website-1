@@ -5,6 +5,23 @@
         padding: 0% 5%;
         top: 10px;
     }
+    .content-1 .curcle{
+        margin: 0px auto;
+    }
+    .content-2 .row .col-1{
+        display: none;
+    }
+    .content-2 .row .col2{
+        background-image: url(../Stock/Image_1.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat; 
+    }
+    .content-2 .row .col2 > div{
+        background-color: rgba(255, 255, 255, 0.8);
+        padding: 5px 0px;
+    }
 }
 
 @media only screen and (max-width:425px){
@@ -12,9 +29,6 @@
     .title-text{
         margin-left: 6%;
         width: 80%;
-    }
-    .content-1 .curcle{
-        margin-left: 35%;
     }
     .sticky{
         padding: 2% 5%;
